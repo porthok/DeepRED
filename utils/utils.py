@@ -3,7 +3,7 @@ import numpy as np
 import torch
 import PIL
 from PIL import Image
-from skimage.measure import peak_signal_noise_ratio
+from skimage.metrics import peak_signal_noise_ratio
 from utils.data import Data
 
 
